@@ -1,0 +1,31 @@
+posisi iklan {position: static;width: 100%; background-size: 60px 30px;background-image: url('https://i.pinimg.com/originals/08/0f/f3/080ff34d3305888ca6e7e216fedc60dc.gif');}
+
+body { background-color: black; }
+
+.judul {font-size: 30px;color: gold;}
+
+.iklan1 {display: none;}
+
+.iklan2 {display: none;}
+
+.iklan3 {display: none;}
+
+.iklan4 {display: none;}
+
+.iklan5 {display: none;}
+
+button {position: relative;top: 65px;border: 3px transparent solid;border-radius: 13px ;color: red;background-color: transparent;font-size: 25px;}
+
+.kl1 {color: white; font-size: 30px;}
+
+.kl2 {font-size: 20px;color: yellow;}
+
+#marquee1 {width: 90%;position: relative;top: 77px;left: 45px; border-radius: 13px ; height: 35px;color: red; font-size: 19px; }
+
+video {position: static;width: 100%; height: auto;}
+
+#marquee2 {border: 3px red solid;width: 100%;position: relative;left: 0px; border-radius: 13px ; height: 35px;color: red; font-size: 19px;}
+
+.gambar {border: 3px solid yellow;border-radius: 13px ; width: 17%;}
+
+.gambar1 {position: relative;top: 37px;right: 430px; border-radius: 8px ;width: 100px; height: 35px;}
