@@ -1,47 +1,46 @@
 <!DOCTYPE html>
 <html lang="in">
 <head>
+				
 				<meta charset="UTF-8">
 				<title>filmovie</title>
+				<style>
+								#gambar1 {position: relative;bottom: 443px;left: 3px;}
+
+#marquee1 {position: relative;bottom: 407px;left: 80px;}
+				</style>
 				
-				<!-- https://dl.dropbox.com/s/tez3xd5janovafr/style.css -->
-				
-				<link rel="stylesheet" href="https://dl.dropbox.com/s/tez3xd5janovafr/style.css"></link>
+				<!-- https://dl.dropbox.com/s/2tp0wphuoni7jvu/vod.css -->
+							
+				<link rel="stylesheet" href="https://dl.dropbox.com/s/2tp0wphuoni7jvu/vod.css"></link>
+				<link rel="stylesheet" href="../css/vod.css"></link>
 				</head>
 				<body>	
-								<div align="center">
+								<center>
 												<br>
-                      <p class="judul"><b> The.Incredible.Hulk.(2008) </b></p>
+                      <p class="judul"><b>  The.Incredible.Hulk.(2008) </b></p>
                       
                       <!-- gambar -->
 								
 								<img class="gambar" src="https://www.themoviedb.org/t/p/w220_and_h330_face/gKzYx79y0AQTL4UAk1cBQJ3nvrm.jpg">
-								<br><br>
-           <img class="iklan1" src="https://dl.dropbox.com/s/8g9cxxcgn0kpisg/transparant.png" >
-           
-           <img class="iklan2" src="https://dl.dropbox.com/s/8g9cxxcgn0kpisg/transparant.png" >
-           
-								<button class="btn btn-primary" onclick="toggleMusic()" id="play" data-play="false"> <i class="fa fa-play"></i> <span id="btn-text">PLAY</span></button>
-								<img class="iklan3" src="https://dl.dropbox.com/s/8g9cxxcgn0kpisg/transparant.png" >
 								
-								<div id="marquee1"></div>
+								<p class="kl1">kilasan singkat</p>	
 								
-								<img class="iklan4" src="https://dl.dropbox.com/s/8g9cxxcgn0kpisg/transparant.png" >
+								<p class="kl2"><b>Ilmuwan Bruce Banner menjelajahi planet ini untuk mencari penangkal kekuatan amarah yang tak terkendali di dalam dirinya: Hulk. Tetapi ketika dalang militer yang bermimpi untuk mengeksploitasi kekuatannya memaksanya kembali ke peradaban, dia mendapati dirinya berhadapan muka dengan musuh baru yang mematikan.</b></p>
+								<br>
+												<button class="btn btn-primary" onclick="toggleMusic()" id="play" data-play="false"> <i class="fa fa-play"></i> <span id="btn-text">PLAY</span></button>
+												<br>
 								
 								<!-- video -->
 								
-								<video controls controlslist="nodownload" id="video" poster="https://www.themoviedb.org/t/p/w500_and_h282_face/jPu8yiadqgzwFPGKJmGo637ASVP.jpg" src="https://dl.dropbox.com/s/sa4kxmcy5qdrf06/The.Incredible.Hulk.%282008%29.mp4"></video>
+								<video id="video" poster="https://www.themoviedb.org/t/p/w500_and_h282_face/jPu8yiadqgzwFPGKJmGo637ASVP.jpg" src="https://dl.dropbox.com/s/sa4kxmcy5qdrf06/The.Incredible.Hulk.%282008%29.mp4"></video>
 								
-								<!-- iklan -->
+								<div id="bawah"></div>
 								
-								<img class="iklan5" src="https://dl.dropbox.com/s/8g9cxxcgn0kpisg/transparant.png" >
+								<!-- https://dl.dropbox.com/s/lwiu0ukd3z7fupi/vod.js -->
 								
-								<div id="marquee2"></div>
-								
-								<!-- https://dl.dropbox.com/s/dh00fxml405xm09/script.js -->
-								
-								<script src="https://dl.dropbox.com/s/dh00fxml405xm09/script.js"></script>
-								</div>
-
+								<script src="https://dl.dropbox.com/s/lwiu0ukd3z7fupi/vod.js"></script>
+								<script src="../js/vod.js"></script>
+								</center>
 </body>
 </html>
