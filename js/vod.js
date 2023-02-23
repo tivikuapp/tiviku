@@ -9,7 +9,7 @@ document.getElementById('flm1').appendChild(marquee);
 
 let div1 = document.createElement('div');
 div1.id = "div1";
-div1.innerHTML = "<br><br>";
+div1.innerHTML = "<br>";
 document.getElementById('bawah').appendChild(div1);
 
 let div2 = document.createElement('div');
