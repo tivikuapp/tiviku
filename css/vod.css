@@ -16,11 +16,7 @@ video {width: 100%;height: auto;}
 
 button {position: relative;bottom: 90px;border: 8px transparent solid;border-radius: 13px ;color: red;background-color: transparent;font-size: 20px;margin: 100px;}
 
-  .controls__slider {
-    width: 10px;
-    height: 30px;
-
-  .controls > * {
+.controls > * {
     flex: 1;
   }
   .progress {
