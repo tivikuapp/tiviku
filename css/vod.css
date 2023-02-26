@@ -6,6 +6,39 @@ body { background-color: black; }
 
 .kl2 {width: 80%;height: auto;font-size: 20px;color: yellow;}
 
+#div1 {position: relative;bottom: 837px;}
+
+.time {
+  margin: 0;
+  padding: 0;
+}
+
+.date {
+  margin: 0;
+  padding: 0;
+}
+
+#clock {
+  font-family: "Share Tech Mono", monospace;
+  color: #ffffff;
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: #daf6ff;
+  text-shadow: 0 0 20px #0aafe6, 0 0 20px rgba(10, 175, 230, 0);
+}
+#clock .time {
+  letter-spacing: 0.05em;
+  font-size: 35px;
+  padding: 5px 0;
+}
+#clock .date {
+  letter-spacing: 0.1em;
+  font-size: 24px;
+}
+
 #marquee1 {text-shadow: 2px 2px 2px red;width: 880px;position: relative;top: 79px;left: 40px;color: lawngreen; font-size: 20px;}
 
 #gambar1 {position: relative;top: 44px;right:  430px; 35px;border-radius: 8px ;width: 100px; height: 34px;}
