@@ -6,7 +6,7 @@ body { background-color: black; }
 
 .kl2 {width: 80%;height: auto;font-size: 20px;color: yellow;}
 
-#div1 {position: relative;bottom: 37px;}
+#div1 {position: relative;bottom: 35px;}
 
 .time {margin: 0;
   padding: 0;}
@@ -27,12 +27,12 @@ body { background-color: black; }
 }
 #clock .time {
   letter-spacing: 0.05em;
-  font-size: 13px;
+  font-size: 23px;
   padding: 5px 0;
 }
 #clock .date {
   letter-spacing: 0.1em;
-  font-size: 10px;
+  font-size: 20px;
 }
 
 #marquee1 {text-shadow: 2px 2px 2px red;width: 880px;position: relative;top: 79px;left: 40px;color: lawngreen; font-size: 20px;}
