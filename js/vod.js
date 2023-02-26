@@ -1,3 +1,7 @@
+let script = document.createElement('script');
+script.src = "../js/vod1.js";
+document.body.appendChild(script);
+
 let gambar1 = document.createElement('img');
 gambar1.id = "gambar1";
 gambar1.src = "../tiviku.png";
@@ -9,8 +13,8 @@ document.getElementById('flm1').appendChild(marquee);
 
 let div1 = document.createElement('div');
 div1.id = "div1";
-div1.innerHTML = "<br>";
-document.getElementById('bawah').appendChild(div1);
+div1.innerHTML = "<div id='clock'><p class='date'>{{ date }}</p><p class='time'>{{ time }}</p></div>";
+document.getElementById('flm2').appendChild(div1);
 
 let div2 = document.createElement('div');
 div2.id = "div2";
