@@ -1,0 +1,9 @@
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-ALLOW-CACHE:YES
+#EXT-X-TARGETDURATION:0
+#EXT-X-PLAYLIST-TYPE:VOD
+#EXT-X-MEDIA-SEQUENCE:1
+#EXTINF:8929.000,
+https://dl.dropbox.com/s/lbjr66q93v4c7e8/all.quiet.on.the.western.front.%28im.westen.nichts.neues%29.%282022%29%2813%29.ts?dl=1
+#EXT-X-ENDLIST
