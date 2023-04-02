@@ -8,7 +8,7 @@ gambar1.src = "../tiviku.png";
 document.getElementById('flm2').appendChild(gambar1);
 let marquee = document.createElement('marquee');
 marquee.id = "marquee1";
-marquee.innerHTML = "<b>Mohon bergabung di grup agar selalu terhubung dengan kami.!!! &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;  &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; facebook grup. ( https://tinyurl.com/tiviku ) &#128516;</b>";
+marquee.innerHTML = "<!--<b>Mohon bergabung di grup agar selalu terhubung dengan kami.!!! &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;  &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; facebook grup. ( https://tinyurl.com/tiviku ) &#128516;</b>-->";
 document.getElementById('flm1').appendChild(marquee);
 
 let div1 = document.createElement('div');
