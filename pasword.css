@@ -2,7 +2,11 @@ body {background-color: black; text-align: center;}
 
 h1 {color: yellowgreen;}
 
-#marquee {color: red;font-size: 30px;}
+#p1  {color: yellow;font-size: 100%;}
+
+#p2  {color: red;font-size: 100%;}
+
+#p3  {color: yellow;font-size: 100%;}
 
 button {border: 3px transparent solid;border-radius: 13px ;color: red;background-color: transparent;padding: 15px;}
 
